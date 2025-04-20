@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Quickscores",
+      "program": "${workspaceFolder}/quickscores.js",
+      "args": ["https://www.quickscores.com/chandleraz", "Sunday - B1", "All Money In", "${workspaceFolder}", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"]
+    },
+    {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Exposure Events",
+        "program": "${workspaceFolder}/exposureevents.js",
+        "args": ["https://basketball.exposureevents.com/239824/spring-playmaker-adult-basketball-league-team-wednesdays/teams/team-name?divisionteamid=4209361", "Spring 2025", "Team Name", "${workspaceFolder}", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"]
+      }
+  ]
+}
